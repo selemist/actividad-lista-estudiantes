@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: rgb(63,94,251);
+    background: -moz-linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endColorstr="#fc466b",GradientType=1); 
+    text-align: center;
+    color:white;
+}
+
+input, button {
+    margin: 1rem 0;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    text-align: center;
+    margin-top: 20px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    width: 50%;
+    margin-left: 20rem;
+}
+
+li button {
+    background-color: #ff4d4d;
+}
+
+li button:hover {
+    background-color: #cc0000;
+}
